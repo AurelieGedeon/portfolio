@@ -231,9 +231,3 @@ function sendEmail(event){
 
 let form = document.getElementById("contact-form")
 form.addEventListener("submit", sendEmail,)
-
-function alerts(event){
-	console.log('hello')
-	alert('hello')
-	event.preventDefault()
-}
